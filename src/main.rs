@@ -10,8 +10,6 @@ fn req() {
     .unwrap();
     }
 
-
-
 fn main() {
     req();
-
+}
