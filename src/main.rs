@@ -8,6 +8,7 @@ fn req() {
     .header("User-Agent", "awesome/1.0")
     .body(())
     .unwrap();
+    println!("{}", request);
     }
 
 fn main() {
