@@ -15,7 +15,7 @@ pub struct Crypto {
   marketcap: u32
 }
 
-fn crypto_req(req: &str) -> Result<Cryptos, Error> {
+fn crypto_req(req: &str) -> Result<Cryptos> {
     let resp = ureq::get(req).call()?.into_string()?;
     let cryptos: Cryptos = serde_json::from_str(&resp)?;
 
