@@ -21,7 +21,8 @@ fn crypto_req(req: String) -> Result<Cryptos, dyn Error> {
 
     dbg!(cryptos);
   
-    todo!()
+    // todo!()
+    Ok(())
   }
 
 fn main() {
