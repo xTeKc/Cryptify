@@ -25,6 +25,11 @@ fn crypto_req(req: String) -> Result<Cryptos, dyn Error> {
     Ok(())
   }
 
+//   enum Result<T, E> {
+//     Ok(T),
+//     Err(E),
+//  }
+
 fn main() {
     let req = "https://api.coingecko.com/api/v3/simple/price?ids=monero&vs_currencies=usd";
     let cryptos = crypto_req(req);
