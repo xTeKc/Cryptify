@@ -40,9 +40,9 @@ use notify::*;
 use ureq;
 
 fn url_req() {
-  
+    let req = "https://api.coingecko.com/api/v3/simple/price?ids=monero&vs_currencies=usd";
 }
 
 fn main(){
-
+  
 }
