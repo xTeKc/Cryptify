@@ -39,6 +39,10 @@
 use notify::*;
 use ureq;
 
-fn main(){
+fn url_req() {
   
+}
+
+fn main(){
+
 }
