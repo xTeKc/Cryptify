@@ -35,3 +35,10 @@
 //     let cryptos = crypto_req(req);
 //     dbg!(cryptos);
 // }
+
+use notify::*;
+use ureq;
+
+fn main(){
+  
+}
