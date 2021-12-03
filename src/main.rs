@@ -44,5 +44,5 @@ fn url_req() {
 }
 
 fn main(){
-  
+  url_req();
 }
